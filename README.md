@@ -1,2 +1,3 @@
-# Ng4ProgressIndicator
-Progress indicator for ng4 project
+NG4 Progress Indicator
+
+Sample project for progress indicator
