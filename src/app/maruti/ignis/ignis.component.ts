@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
     template: `
-    <progress-indicator></progress-indicator>
+    <progress-indicator [parentKey]="parent"></progress-indicator>
     <h2>
     Ignis
     </h2>
@@ -11,6 +11,6 @@ import { Component, OnInit } from '@angular/core';
 
 export class IgnisComponent implements OnInit {
     constructor() { }
-
+    public parent = "maruti";
     ngOnInit() { }
 }
